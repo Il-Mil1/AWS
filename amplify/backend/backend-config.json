@@ -1,9 +1,16 @@
 {
 	"auth": {
-		"aws8d3a7c20": {
+		"aws71cd11fc": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
-			"dependsOn": []
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"s3c3327a87": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }

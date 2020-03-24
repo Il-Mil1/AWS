@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "aws8d3a7c20_identitypool_8d3a7c20",
+    "identityPoolName": "aws71cd11fc_identitypool_71cd11fc",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "aws8d3a7c20",
-    "userPoolName": "aws8d3a7c20_userpool_8d3a7c20",
+    "resourceNameTruncated": "aws71cd11fc",
+    "userPoolName": "aws71cd11fc_userpool_71cd11fc",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "aws8d38d3a7c20_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "aws71c71cd11fc_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "aws8d3a7c20",
+    "resourceName": "aws71cd11fc",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -45,11 +45,9 @@
         ]
     },
     "useDefault": "default",
-    "triggers": "{}",
+    "usernameAttributes": [
+        "email, phone_number"
+    ],
     "userPoolGroupList": [],
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
     "dependsOn": []
 }
