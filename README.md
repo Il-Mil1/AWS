@@ -19,7 +19,7 @@ Open the terminal and use this command:
 <li> Decide if you want to update or create the AWS Profile in your local machine (press enter for "default" has the name)
 <h2> Initialization of Amplify </h2>
 <li> amplify init
-<li> Enter a name for the project (enter and it will take the previous one
+<li> Enter a name for the project (enter and it will take the previous one)
 <li> Enter a name for the environment 
 <ul> Choose your default editor: (Select one)
 <li> Visual Studio Code
